@@ -183,19 +183,144 @@
 //     console.log(num,"is not multiple of 5")
 // }
 
-let score = prompt("enter your score(0-100")
-let grade;
+// let score = prompt("enter your score(0-100")
+// let grade;
 
-if(score>=90 && score <=100){
-    grade = "A";
-}else if(score >=70 && score<=89){
-    grade="B"
-}else if (score>=60 && score<=69){
-    grade = "C"
-}else if (score>+50 && score <=59){
-    grade = "D"
-}
-console.log("according to your scores ,your grade was; " ,grade)
+// if(score>=90 && score <=100){
+//     grade = "A";
+// }else if(score >=70 && score<=89){
+//     grade="B"
+// }else if (score>=60 && score<=69){
+//     grade = "C"
+// }else if (score>+50 && score <=59){
+//     grade = "D"
+// }
+// console.log("according to your scores ,your grade was; " ,grade)
+
+//for loops
+//print 1 to 5
+// for(let i = 1; i<=5; i++){
+//     console.log("i=",i);
+// } 
+// }//calculate sum of 1 to n
+// let sum = 0;
+// let n = 100;
+// for(let i = 1 ; i<=n ; i++){
+//     sum+=i;
+// }
+// console.log("sum = ", sum )
+
+//while loop
+// let i = 1;//print apna college 10 times
+// while(i<=10){
+//     console.log("Apna college ");
+//     i++;
+// }
+
+//do while loop
+// let i =1;
+// do{
+//     console.group("Aapna college");
+//     i++;
+// }while(i<=10)
+
+// do{
+//     console.group("i = ",i);
+//     i++;
+// }while(i<=5)
+
+//for of loops 
+// let str ="java script";
+// let len = 0;
+// for(let i of str ){
+//     //iterator --> characters
+//     console.log("i=",i);
+//     len++;
+// }
+// console.log("string len =",len)
+
+// for in loops 
+// let student = {
+//     name : "ayaz",
+//     age : 18,
+//     cgpa : 9.5,
+//     ispass : true
+// };
+// for (let key in student){
+//     console.log("key = ", key , "value=",student[key])
+// }
+
+//que 1 print 10 100 number
+// for(let i=0;i<+100;i++){
+//     console.log(i)
+// }
+//que 2 
+// for(let num = 0; num <=100; num++){
+//     if(num % 2 ===0) {
+//          console.log("num=",num )
+// }
+
+// }
+//que 3
+// for(let num = 0; num <=100; num++){
+//     if(num % 2 !==0) {//odd number
+//          console.log("num=",num )
+// }
+
+// }
+
+//que4
+// let gameNum =25;
+// let userNum = prompt("Guess the game number :");
+// document.write(userNum);
+
+
+//que5
+// let gameNum  = 25;
+// let userNum = prompt("guess the game number: ");
+// while (userNum != gameNum){
+//     userNum = prompt("you entered wrong number")
+// }
+// document.write("congratulation")
+
+//Strings
+// let str = "ayaz alam "
+// let str2 ="quadai"
+// console.log(str.length)
+// console.log(str2.length)
+// console.log(str[3]);//z
+
+
+//template literals 
+// let obj = {//normal form 
+//     item: "pen",
+//     price : 10,
+// };
+//console.log("the cost of ", obj.item, "is",obj.price,"rupees");
+
+// let obj = {//template form
+//     item: "pen",
+//     price : 10,
+// };
+// let output = ` the cost of ${obj.item} is ${obj.price} rupees `;//template string ke andr daal do
+// console.log(output)
+
+// let specialStrings = `This is template literals ${1 + 2 +5 } `
+// console.log(specialStrings)
+
+//escape characters
+// let str = "apna\tcollege"//tab space a jata hai \t se
+// let str = "apna\tcollege"
+// console.log(str.length)// \t dono milakr 1 character count hoonge 
+// console.log("apna \ncollege")// \n next line ho jata hai
+
+//string methods 
+// str = "apnaCollege";
+// console.log(str.toUpperCase())
+// console.log(str.toLowerCase())
+
+// document.write("loop has ended")
+
 
 
 

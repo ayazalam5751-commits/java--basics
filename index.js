@@ -321,6 +321,97 @@
 
 // document.write("loop has ended")
 
+/ let str = "        quad patna    "// trim console.log(str.trim())
+// console.log(str.trim())
+
+// let college = "joinmyquad"// slicing concept end wala include nhi hota hai 
+// console.log(college.slice(0,5))
+
+// let str1 = "quad"
+// let str2 = "ai"
+// let result = str1.concat(str2);//concat method 2 strings ko joorne ka kaam krta hai
+// let result = "ayaz join " + str1 + str2// ek method ye bhi hai stings ko joorne ka 
+// console.log(result)
+
+// let str = "hellololo";
+// console.log(str.replaceAll("lo","y"))//replace method
+
+// let str = "ilovejs";
+// console.log(str.charAt(3));//v  
+
+//ques7 create a username 
+// let fullName = prompt("enter your full name without space");
+
+// let userName = "@" + fullName + fullName.length
+// document.write(userName)
+
+
+
+// document.write("loop has ended")
+
+//Array methods 
+// let array = [1,2,3,4,5,]
+// array.push(6)
+// console.log(array)
+
+
+
+
+//15/09/2026---class notes 
+// let arr = [2,3,4,5,5,6,7,8,9];
+// let res = []
+
+// for(let i = 0 ; i < arr.length ; i++){
+//     if(arr[i]%2===0){
+//         res.push(arr[i])
+
+//     }
+// }
+// console.log(res)
+
+// let arr = [1,2,3,4,5];
+// arr.pop();//last se one digit hat jayega [1,2,3,4]
+// console.log(arr)
+// arr.shift();//starting se one shift hat jayega [2,3,4,5]
+// console.log(arr)
+// let arr = [1,2,3,4,5,6];  
+// console.log(arr.indexOf(5))//4 , isse jo value hai wo konse index pr hai
+// console.log(arr.indexOf(7))
+// let result = arr.join(',');//isse array ki bracket hategi
+// let result = arr.join('');//isse array ki bracket comma hat jayega 
+// console.log(result);
+
+// let arr = ["bat","ball","badminton","football","hockey"]
+// console.log(arr.includes("ball"));
+// console.log(arr.join(","));
+// console.log(arr.join(""));
+
+// let arr2 = [1 , 2 ,3 ,4 ,5]
+// console.log(arr2.toString());
+
+// console.log(arr2.slice(1,4))//(1,4 )me 4 th wala consider nhi hoga // returns portion (non distructive)
+// console.log(arr2)
+
+// let arr = [1,2,3,4]
+// console.log(arr.splice(1,3))//add remove destractive // isme last wala part consider hoga 
+// arr.splice(1,3)
+// console.log(arr)
+
+
+
+// let str3 = "quad";
+// let str4 = "ai";
+// let result = str3.concat(str4);
+// console.log(result)
+
+// let arr5 = [1,2,3,"ayaz",9];
+// console.log(arr5.reverse());
+// console.log(arr5.sort())
+
+
+for(let i = 1; i<=10 ; i++){
+    console.log(i)
+}
 
 
 

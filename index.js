@@ -409,10 +409,38 @@
 // console.log(arr5.sort())
 
 
-for(let i = 1; i<=10 ; i++){
-    console.log(i)
-}
+// for(let i = 1; i<=10 ; i++){
+//     console.log(i)
+// }
+// / for(let i = 1 ; i<=10 ; i++){
+//     for(j = 1 ; j<=10 ;j++){
+//         console.log(j)
+//     }
+// }
+// for(let i = 1; i<=10;i++){
+//     console.log(20*i)
+// }
+// for(let i =1 ; i<=5; i++){
+//     let star = ""
+//     for(let j=1 ; j<=5; j++){
+//         star+="*"
+//     }
+//     console.log(star)
+// }
+// for(let i =1 ; i<=5 ; i++){
+//     num = ""
+//     for(let j =1 ; j<=5 ; j++){
+//         num += j
 
+//     }
+//     console.log(num)
+// }
+// let a = Number(prompt("Enter first number:"));
+// let b = Number(prompt("Enter second number:"));
+
+// let sum = a + b;
+
+// document.write("Sum = " + sum);
 
 
 

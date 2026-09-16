@@ -441,6 +441,92 @@
 // let sum = a + b;
 
 // document.write("Sum = " + sum);
+//Arrys
+
+// let marks = [ 97 ,34,67,89];
+// console.log(marks)
+// console.log(marks.length);//property
+// let heroes = [ "iron man", "spider man ","hulk","lucky", "shinchan"];
+// console.log(heroes);
+// console.log(heroes.length)
+// console.log(marks[0])
+// console.log(marks[4])
+// console.log(marks[0]=77)
+// console.log(marks)
+
+//for loop
+// let heroes = [ "iron man", "spider man ","hulk","lucky", "shinchan"];
+// for(let idx=0; idx<heroes.length;idx++){
+//     console.log(heroes[idx]);
+// }
+//for of loop
+// for(let hero of heroes){
+//     console.log(hero);
+// }
+
+// let cities = ["patna ", "pune", "delhi","mumbai "]
+// for(let city of cities){
+//     console.log(city)
+//     console.log(city.toUpperCase())
+// }
+
+//que7
+// let marks = [85,97,44,37,76,60];
+// let sum = 0;
+// for(let val of marks ){
+//     sum+=val;
+// }
+// let avg = sum /marks.length;
+// console.log(`avrg marks of the class = ${avg}`);
+
+//que8
+//for of loop 
+// let items =[250,645,300,900,50];
+// let i = 0;
+// for(let val of items){
+//     let offer = val/10;
+//     items[i]=items[i]-offer;
+//     console.log(`value of offer =${items[i]}`);
+//     i++;
+// }
+//for loop 
+// for(let i =0;i<items.length ; i++){
+//     let offer = items[i]/10;
+//     items[i] -= offer;
+
+// }
+// console.log(items);
+
+//slice 
+// let marvel = [ "thor","iron man ", "spider man ","ant man "];
+// console.log(marvel.slice(1,2))
+
+//splice method //splice(startidx,delcount,new)
+// let arr = [ 1,2,3,4,5,6,7 ];
+// console.log(arr.splice(2,2));
+// console.log(arr.splice(2,2,101,102,103));
+// console.log(arr)
+
+//add elements 
+// arr.splice(2,0,101);
+// console.log(arr)
+
+//delete elements 
+// arr.splice(3,1)
+// arr.splice(2,2)
+
+// replace elements 
+// arr.splice(2,1,109);
+// console.log(arr)
+
+// let company = ["bloomberg ","microsoft","uber","google","ibm","netflix"];
+// company.splice(0,1)
+// console.log(company)
+// company.splice(2,1,"ola")
+// console.log(company)
+// company.splice(6,0,"amazon")
+// console.log(company)
+
 
 
 

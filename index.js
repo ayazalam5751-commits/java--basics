@@ -528,6 +528,97 @@
 // console.log(company)
 
 
+17--9-2026
+// for(let i =1 ; i<=5 ;  i++){
+//     let star = "";
+//     for(let j=1; j<=i; j++){
+//         star+="*"
+
+//     }
+//     console.log(star)
+// }
+
+// for(let i =5 ; i>=1 ; i--){
+//     let star ="";
+//     for(let j =i ; j>=1 ;j--){
+//         star+="*"
+//     }
+//     console.log(star)
+// }
+
+// for(let i = 1;i<=5 ;i++){
+//     for( let j = 1; j<=10;j++){
+//         console.log(i*j)
+//     }
+//     console.log("******")
+// }
+
+
+
+//function in js 
+
+// function myFunction(){
+//     console.log("welcome to apna college");
+//     console.log("we are learning js ");
+// }
+// myFunction();
+// myFunction();
+
+// function myFunction(msg){//parameter ---> input
+//     console.log(msg)
+// }
+// myFunction("i love python ");//argumentsjj
+
+// function myFunction(msg , n ){//parameter ---> input
+//     console.log(msg*100)
+// }
+// myFunction("i love python ", 100);//argumentsjj//nan
+
+// function --> 2 nu8mbers , sum 
+// function sum(x,y){
+//     console.log(x + y);
+// }
+// console.log(sum(5,100))
+
+// function sum(x,y){
+//     //local variables --> scope 
+//     s = x +y;
+//     return s ;
+// }
+// let val = sum(3,4)
+// console.log(val) 
+
+// Arrow function 
+
+// const arrowSum = (a,b) => {
+//     console.log(a + b );
+// };
+//multiplication function 
+// function mul(a,b) {
+//     return a*b;
+// }
+
+// const printHello = () =>{
+//     console.log("hello");
+// };
+// printHello()
+
+
+// function countVowels(str){
+//     let count = 0;
+//     for(const char of str ){
+//         if(char ==="a"|| char ==="e" || char ==="i" || char ==="o" || char==="u"){
+//             count++;
+
+//         }
+//     }
+//     console.log(count);
+// }
+// countVowels("ayazalam")
+
+//
+
+
 
 
 

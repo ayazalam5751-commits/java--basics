@@ -679,6 +679,108 @@
 // })
 // document.write("factorial=",factorial);  
 
+// document.write("factorial=",factorial);  
+
+
+// let arr = [1,2,3,4,5,6];
+// let arr2 = [1,2,3,4,5,102,3,5];
+// let sum = arr.concat(arr2);
+// console.log(sum)
+
+// let movie =["shiddat","shershah","dhamal"]
+// let movie_1 = movie.join(" ");
+// console.log(movie_1)
+
+// let arr = [1,5,7,99,35,9];
+// let arr2 = arr.sort();
+// console.log(arr2)
+
+
+// let arr = [1,5,7,99,35,9];
+// let arr2 = arr.sort((a,b)=>a-b);
+// console.log(arr2)
+
+// let arr = [1,5,7,9,3,9];
+// let arr2 = arr.sort((a,b)=>b-a);
+// console.log(arr2)
+
+// let arr =[10,2,3,5,6,9];
+// let arr2 = arr.slice(2,5);
+// console.log(arr2)
+// console.log(arr)
+
+// let arr = [12,2,3,4,5]
+// arr.splice(2,4)
+// console.log(arr) 
+
+// let arr=[1,2,3,4,5,6,98]
+// let res = arr.toString();
+// console.log(res)
+// let res = arr.reverse()
+// console.log(res)
+
+
+// let str = "ayaz"
+// let str1 = 'mango'
+// let str2 = `quad`
+// console.log(typeof str)
+// console.log(typeof str2)
+// console.log(typeof str1)
+
+// let str4 = "apple"
+// console.log(str4.at(-2))
+
+// let str ='Mango';
+// let result = str.toLowerCase();
+// console.log(str)
+// console.log(result)
+
+
+// let arr = [12,23,4,5,6,76,77]
+
+// console.log(5+5.8 == 10.8)
+// console.log(0.2+0.1 == 0.3)//false kyuki decimal point 0.3 infinite tk ja rha hai
+
+// console.log(0.3+0.2==0.5)
+// console.log(2+1 == 3)
+
+// arr[2]=102
+// console.log(arr)
+
+// let str = "Ayaz"
+// // str[4]=u
+// // console.log(str)
+// // console.log(str.length)
+// for(let i=0;i<=str.length;i++){
+//     console.log(str[i])
+// }
+
+// let str = "quad"
+// let res = str.split('')
+// console.log(res)
+
+// let str = "quad ai";
+// let res = str.split(' ');
+// console.log(res)
+
+// let str = 'Mango';
+// for (let char of str){
+//     console.log(char)
+// }
+// let str = "Hello pw ioi "
+// str = str.replace('p','b')
+// console.log(str)
+// str = str.replace('pw','quad')
+// console.log(str)
+
+// let str = 'hello world world'
+// str =str.replace('world','gold')
+// console.log(str)
+
+// str =str.replaceAll('world','gold')
+// console.log(str)
+
+// console.log(str.includes('lo'))
 
 
 

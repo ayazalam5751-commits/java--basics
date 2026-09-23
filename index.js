@@ -783,6 +783,45 @@
 // console.log(str.includes('lo'))
 
 
+/ console.log(str.slice(2,4))
+// let a = "ayaz"
+// let b = "alam"
+// console.log(a.concat(b))
+// let v = ["harshit","ayaz"]
+// let str = "hello"
+// console.log(str.split("").reverse().join(""))
+
+
+
+// let str ="hello"
+// let res =""
+// console.log(str.reverse())
+// for(let i = str.length-1;i>=0;i--){
+//     console.log(str[i])
+//     res+=str[i]
+// }
+// console.log(res)
+
+// let str ="madam";
+// let reverse = str.split("").reverse().join('')
+// if(str===reverse){
+//     console.log("palindrome")
+// }
+
+// let str="madam"
+// res=str[0].toUpperCase()+str.slice(1,)
+// console.log(res)
+
+
+// let count=0;
+// let str="godzilla";
+// for(let i = 0;i<str.length;i++){
+//     if(str[i]==='a'||str[i]==='e'||str[i]==='i'||str[i]==='o'||str[i]==='u')
+//         count++
+// }
+
+
+
 
 
 

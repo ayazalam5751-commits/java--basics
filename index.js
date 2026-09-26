@@ -820,7 +820,144 @@
 //         count++
 // }
 
+// let num = 101;
 
+// let str = num.toString();
+// let reverse = str.split("").reverse().join("");
+
+// if (str === reverse) {
+//     console.log("panildrome");
+// }
+
+// let vovel = ['a','e','i','o','u','A','E','I','O','U'];
+// let str = 'godzilla';
+// let count = 0;
+// for (let i =0;i<str.length;i++){
+//     if (vovel.includes(str[i])){
+//         count++;
+//     }
+// }
+// console.log(count)
+
+// let vovel = ['a','e','i','o','u','A','E','I','O','U'];
+// let str = 'godzilla';
+// let count = 0;
+// for (let i =0;i<str.length;i++){
+//     if (!vovel.includes(str[i])){
+//         count++;
+//     }
+// }
+// console.log(count)
+
+
+// let str='hello  world';
+// str = str.replace('  ','')
+// console.log(str)
+
+// let str ='programming';
+// let set = new Set(str);
+// console.log(set)
+// let newArr=Array.from(set);
+// console.log(newArr)
+// newArr.join('');
+// console.log(newArr.join(''));
+
+// let str ='programming';
+// let res = '';
+// for (let i = 0 ;i<str.length;i++){
+//     let isfound = false;
+//     for(let j = 0 ;j<res.length;j++){
+//         if(str[i]===res[j]){
+//             isfound=true;
+//             break;
+//         }
+//     }
+//     if(!isfound){
+//         res+=str[i]
+//     }
+// }
+// console.log(res)
+
+
+// let str="programming";
+// let res=''
+// for(let i=0;i<str.length;i++){
+//     if(!res.includes(str[i])){
+//         res+=str[i]
+//     }
+// }
+// console.log(res)
+
+// let str='programming';
+// let count=0
+// for(let i=0;i<str.length;i++){
+//     if(str[i]==='m'){
+//         count++;
+//     }
+// }
+// console.log(count)
+
+// let str='listen';
+// let str_2='silent'
+// for(let i =0;)
+
+
+
+// let str = "listen";
+// let str_2 = 'silent';
+// let newstr = str.split("").sort().join("");
+// let newstr_2 = str_2.split("").sort().join("");
+// if (newstr === newstr_2) {
+//     console.log("anagram");
+// } else {
+//     console.log("no");
+// }
+
+//FUNCTION 
+// function add(a,b){
+//     console.log(a);
+//     console.log(b);
+// }
+// add(10,20)
+
+// function add(a,b){
+//     console.log(a);
+//     console.log(b);
+// }
+// add(10,20,30)
+
+// function add(a,b){
+//     let result = a+b ;
+//     console.log(result)
+// }
+// add(102,2)
+
+
+// function add(a,b){
+//     let res = a+b;
+//     return res
+// }
+// let add_1=add(101,29)
+// console.log(add_1)
+
+// function multiply(a,b){
+//     return a**b
+// }
+// let multiply_1=multiply(2,4)
+// console.log(multiply_1)
+
+
+// function restArg(...arg){
+
+//     console.log(arg)
+
+// }
+// restArg(10,20,30,40)
+
+// let str = 'hello';
+// console.log(str.charAt(2))
+// console.log(str.charCodeAt(2))
+// console.log(String.fromCharCode(104))
 
 
 

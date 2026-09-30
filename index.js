@@ -959,6 +959,73 @@
 // console.log(str.charCodeAt(2))
 // console.log(String.fromCharCode(104))
 
+/Arguments in js 
+// function sum(a,b){
+//     return a+b
+// }
+// console.log(sum(10,20))
+
+// function sum(a,b){
+//     console.log(arguments);
+//     return a+b;
+// }
+// console.log(sum(10,20,90,89));
+
+// function sum(){
+//     let sum = 0;
+//     for(let i=0;i<arguments.length;i++){
+//         sum = sum + arguments[i]
+//     }
+//     return sum 
+// }
+// console.log(sum(90,10,20,30,20))
+
+// const sum=function(){
+//     let sum = 0;
+//     for(let i=0;i<arguments.length;i++){
+//         sum = sum + arguments[i]
+//     }
+//     return sum 
+// }
+// console.log(sum(90,10,20,30,20))
+
+// let str=[1,2,3,4];
+// str.push("5");
+// console.log(str)
+
+// function add (a, b, d){
+//     let res = a+b;
+//     d(res)
+// }
+// function resultdisplay (a){
+//     console . log (a)
+// }
+// add(10,20,resultdisplay)
+
+// function add (a, d, callback){
+//     let res = a+d
+//     callback(res)
+// }
+// add(10,20,function(res){
+//     console.log(res)
+// })
+
+
+// function test(){
+//     return function greet(name){
+//         return "hello"+name
+
+//     }
+// }
+// let fun 
+// = test()
+//     console.log(fun("quad"))
+
+const randomNum = Math.random();
+
+console.log(randomNum);
+
+
 
 
 

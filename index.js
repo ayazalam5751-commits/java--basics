@@ -1021,9 +1021,27 @@
 // = test()
 //     console.log(fun("quad"))
 
-const randomNum = Math.random();
+// const randomNum = Math.random();
 
-console.log(randomNum);
+// console.log(randomNum);
+
+// let str = 'hello';
+// console.log(str.charAt(2))
+// console.log(str.charCodeAt(2))
+// console.log(String.fromCharCode(104))
+
+// const user = {
+//   name: "John",
+//   profile: {
+//     email: "john@example.com",
+//     address: {
+//       street: "123 Main St",
+//       city: "Somewhere"
+//     }
+//   }
+// };
+
+// console.log(user?.profile?.address?.street)
 
 
 

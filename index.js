@@ -1,3 +1,17 @@
+// function sum(fun) {
+//     console.log('task started');
+//     setTimeout(() => {
+//         console.log('task completed');
+//     }, 5000);
+//     console.log('callback is going to be called');
+//     fun();
+// }
+
+// function test() {
+//     console.log('callback executed');
+// }
+
+// sum(test);
 //Arthmetic operation 
 // let a=5;
 // let b=2;
